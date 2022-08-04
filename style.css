@@ -31,6 +31,8 @@ h1 {
     color: white;
     padding-top: -50px;
     padding-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
     line-height: 1;
 }
 
@@ -53,11 +55,10 @@ h1 {
 
 .second-banner p {
     font-size: 20px;
-
+    color: #707070;
+    padding-left: 20%;
+    padding-right: 20%;
 }
-
-
-
 
 .amount {
     display: flex;
@@ -135,10 +136,15 @@ hr {
 
 .donate-plan p {
     font-size: 20px;
+    color: #707070;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 3%;
 }
 
 .donate-plan h1 {
     font-size: 60px;
+
 }
 
 .shelter-area {
@@ -153,6 +159,8 @@ hr {
     font-size: 70px;
 }
 
+
+
 .food-side {
     padding: 30px;
     border-radius: 5px;
@@ -160,10 +168,18 @@ hr {
     margin-right: 20px;
 }
 
+.food-side p {
+    color: #707070;
+}
+
 .shelter-side {
     padding: 30px;
     background-color: aqua;
     border-radius: 5px;
+}
+
+.shelter-side p {
+    color: #707070;
 }
 
 .education-side {
@@ -173,32 +189,128 @@ hr {
     background-color: bisque;
 }
 
+.education-side p {
+    color: #707070;
+}
+
 .banner-four {
     display: flex;
+    padding-top: 150px;
 }
 
 .fourth-bannar {
     width: 50%;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 150px;
+    padding-left: 10%;
 }
 
-
-.fourth-bannar h1 {
-    font-size: 50px;
-}
-
-p {
+.fourth-bannar p {
     color: #707070;
-    padding-bottom: 30px;
+    padding-bottom: 5%;
+}
+
+.fourth-bannar img {
+    width: 80%;
 }
 
 .link-button-four {
     text-decoration: none;
+    font-size: 25px;
     color: white;
     background-color: #ff5959;
-    font-size: 25px;
     padding: 15px;
-    border-radius: 5%;
+    border-radius: 5px;
+}
+
+.fifth-banner {
+    display: flex;
+    padding-top: 100px;
+}
+
+.fifth-banner p {
+    color: #707070;
+    padding-bottom: 5%;
+}
+
+.fifth-banner img {
+    width: 120%;
+}
+
+.survive {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.fifth-link-button {
+    text-decoration: double;
+    font-size: 25px;
+    color: white;
+    background-color: #ff5959;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.my-updates {
+    text-align: center;
+}
+
+.my-updates h1 {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.my-updates p {
+    color: #707070;
+    margin-top: -10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 50px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.subscribe-button {
+
+    padding: 10px;
+    background-color: #707070;
+
+}
+
+#email {
+    background-color: #FFEEEE;
+    padding: 10px;
+}
+
+.email-button {
+    padding: 50px;
+    background-color: bisque;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+
+
+}
+
+::placeholder {
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.last-class {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: #FF5959;
+}
+
+footer p {
+    color: white;
 }
