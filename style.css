@@ -47,11 +47,16 @@ h1 {
     padding-top: 100px;
 }
 
-
-.second-banner P {
-    font-size: 20px;
-    color: #707070;
+.second-banner h1 {
+    font-size: 60px;
 }
+
+.second-banner p {
+    font-size: 20px;
+
+}
+
+
 
 
 .amount {
@@ -60,10 +65,7 @@ h1 {
     font-size: 20px;
     color: #707070;
     padding: 35px, 20px;
-    margin-bottom: 5%;
-
-
-
+    margin-bottom: 3%;
 }
 
 .amount-one {
@@ -123,6 +125,80 @@ hr {
     background-color: #ff5959;
     padding: 15px;
     border-radius: 5px;
+}
+
+.donate-plan {
+
+    text-align: center;
+    padding-top: 50px;
+}
+
+.donate-plan p {
+    font-size: 20px;
+}
+
+.donate-plan h1 {
+    font-size: 60px;
+}
+
+.shelter-area {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+}
+
+.shelter-area h1 {
+    font-size: 70px;
+}
+
+.food-side {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFEEEE;
+    margin-right: 20px;
+}
+
+.shelter-side {
+    padding: 30px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.education-side {
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: bisque;
+}
+
+.banner-four {
+    display: flex;
+}
+
+.fourth-bannar {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 150px;
+}
 
 
+.fourth-bannar h1 {
+    font-size: 50px;
+}
+
+p {
+    color: #707070;
+    padding-bottom: 30px;
+}
+
+.link-button-four {
+    text-decoration: none;
+    color: white;
+    background-color: #ff5959;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5%;
 }
